@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de hover</title>
+
+<style>
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+div > p {
+display: none;
+}
+
+div:hover > p {
+color: rgb(255, 255, 255);
+display: block;
+background-color: red;
+width: 300px;
+text-indent: 3px;
+padding: 4px;
+}
+
+div:hover {
+color: red;
+}
+
+div#d1:hover {
+
+color: aqua;
+
+}
+div#d1 > p {
+ 
+display: none;
+
+}
+
+div#d1:hover > p {
+display: block;
+color: white;
+background-color: black;
+width: 300px;
+text-indent: 3px;
+padding: 4px;
+}
+
+
+
+
+</style>
+
+</head>
+<body>
+    
+<h1>EXEMPLO LEGAL DE HOVER</h1>
+
+<P>Passe o mouse em cima do texto abaixo e veja oque acontece!</P>
+
+<div>
+
+    - Passe o mouse aqui :D
+
+    <p>ACHOU UM EASTER EGG PARABENS!!!</p>
+
+</div>
+    <br>
+    <br>
+<div id="d1">
+    - A lenda do "Olá, Mundo!""
+ 
+    <p id="teste">Diz a lenda de quem não usa olá mundo na sua primeira aula de programação, não vai pra frente, será verdade isso? não vou arriscar "Olá, Mundo!"</p>
+
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>

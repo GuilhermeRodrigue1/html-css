@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redimensionando imagens</title>
+</head>
+<body>
+    
+
+<h1>imagem dinamica!</h1>
+
+<p>tente abrir esse site em avarios dispositivos diferentes ou simplesmente aumente e diminua o tamnaho do seu navegador!</p>
+
+<picture>
+    <!--Imagem pequena abaixo!-->
+    <source media="(max-width: 720px)" srcset="imagens/paisagemP.jpg" type="image/jpg">
+    <!--Imagem media abaixo!-->
+    <source media="(max-width: 1020px)" srcset="imagens/paisagemM.jpg" type="image/jpg">
+    
+    <img src="imagens/paisagemG.jpg" alt="tamanho G">
+ 
+</picture>
+
+<h1>Reproduzindo audio</h1>
+<p>Vamos aprender a reproduzir audios em html5!</p>
+
+<audio preload="" controls loop>
+
+<source src="midia/musicalofi1.mp3" type="audio/mpeg">
+<source src="midia/musicalofi1.wav" type="audio/wav">
+<source src="midia/musicalofi1.ogg" type="audio/ogg">
+
+<p>infelizmente seu navegador não consegue reporduzir o audio <a href="midia/musicalofi1.mp3" download="">clique aqui para baixar ele</a></p>
+
+
+</audio>
+
+
+<h2>para acessar a proxima pagina <a href="pag001.html">clique aqui!</a></h2>
+
+<button>a</button>
+<button type="submit">Olá mundo</button>
+
+
+
+
+
+
+</body>
+</html>

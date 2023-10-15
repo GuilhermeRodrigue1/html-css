@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PseudoClasses</title>
+
+<style>
+
+#d1 > #oculto  {
+
+display: none;
+
+}
+
+#d2 > #oculto1  {
+
+display: none;
+
+}
+
+#d3 > #oculto2  {
+
+display: none;
+
+}
+
+div {
+
+display: inline-block;
+background-color: aquamarine;
+text-align: center;
+border: 1px solid black;
+height: 300px;
+width: 300px;
+
+}
+
+#d1:hover > #oculto {
+
+background-color: aqua;
+display: block;
+}
+
+#d2:hover > #oculto1 {
+background-color: rgb(7, 156, 255);
+display: block;
+}
+
+#d3:hover > #oculto2 {
+background-color: blueviolet;
+display: block;
+
+}
+
+
+
+
+</style>
+
+</head>
+<body>
+    
+<div id="d1">
+    
+    01
+
+    <div id="oculto"> 
+    
+        <p>Outra caixa?</p>
+
+    </div>
+
+
+</div>
+<div id="d2">02
+
+    <div id="oculto1"> 
+    
+        <p>Outra caixa?</p>
+
+    </div>
+
+
+
+
+</div>
+<div id="d3">03
+
+    <div id="oculto2"> 
+    
+        <p>Outra caixa?</p>
+
+    </div>
+
+
+
+
+</div>
+
+
+
+
+</body>
+</html>
