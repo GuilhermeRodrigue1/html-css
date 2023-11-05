@@ -1,0 +1,60 @@
+@charset "UF-8";
+
+* {
+
+margin: 0px;
+padding: 0px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+body {
+
+background-color: antiquewhite;
+background-image: url(IMG/wallpaper-4k.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+background-position: center center;
+
+}
+
+.container-nav-bar {
+
+margin-top: 20px;
+padding-top: 20px;
+padding-bottom: 20px;
+text-align: center;
+
+}
+
+.container-nav-bar > a {
+
+text-decoration: none;
+color: whitesmoke;
+text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.527);
+font-weight: bold;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 15px;
+padding-right: 15px;
+
+}
+
+.container-nav-bar > a:hover {
+
+    text-decoration: none;
+    color: rgb(255, 157, 157);
+    font-weight: bold;
+    
+}
+
+img#Aviao-icon {
+
+max-width: 200px;
+height: 200px;
+background-color: rgba(0, 255, 255, 0);
+transform: translate(-40px, 35px);
+
+}
